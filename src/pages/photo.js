@@ -8,7 +8,6 @@ function Photo() {
 
 	const { data } = useSWR(`/photos/${slug}`, fetcherUnsplash);
 
-	// console.log('DATA :: ', data);
 
 	return (
 		<div className='photo'>
