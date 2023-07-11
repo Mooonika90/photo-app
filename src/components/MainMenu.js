@@ -1,27 +1,3 @@
-// import { Link } from 'react-router-dom';
-
-// function MainMenu() {
-// 	return (
-// 		<>
-// 			<nav id='mainmenu'>
-// 				<ul>
-// 					<li>
-// 						<Link to='/'>Start</Link>
-// 					</li>
-// 					<li>
-// 						<Link to='/search'>Search</Link>
-// 					</li>
-// 					<li>
-// 						<Link to='/aboutme'>About Me</Link>
-// 					</li>
-// 				</ul>
-// 			</nav>
-// 		</>
-// 	);
-// }
-
-// export default MainMenu;
-
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
@@ -54,8 +30,8 @@ function MainMenu() {
 							</Link>
 						</li>
 						<li>
-							<Link to='/aboutme' onClick={handleShowNavbar}>
-								About Me
+							<Link to='/about' onClick={handleShowNavbar}>
+								About 
 							</Link>
 						</li>
 					</ul>

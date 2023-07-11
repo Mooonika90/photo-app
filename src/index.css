@@ -405,6 +405,12 @@ img {
 	border: 1px solid var(--nude);
 	text-transform: uppercase;
 }
+
+.about p {
+	font-family: 'Dosis', sans-serif;
+	padding: var(--padding-size);
+}
+
 @media (max-width: 50rem) {
 	.photo > section {
 		flex-direction: column;
