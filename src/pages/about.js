@@ -6,7 +6,7 @@ function About() {
 				I created a photo app to showcase my skills in building user-friendly
 				applications. I used Unsplash's API to integrate their vast collection
 				of high-quality, copyright-free photos. By registering the app on
-				Unsplash and utilizing API endpoints, I can search for photos based on
+				Unsplash and utilizing API endpoints I can search for photos based on
 				various criteria. Proper authentication and attribution ensure the
 				correct usage of images. Optimized image URLs enhance the user
 				experience.
