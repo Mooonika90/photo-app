@@ -11,7 +11,7 @@ function App() {
 	return (
 		<div id='app'>
 			<Header id='site-header'>
-				<h1>PHOTO APP</h1>
+				<h1>PHOTO APP </h1>
 			</Header>
 			<main>
 				<Routes>
