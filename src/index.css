@@ -230,6 +230,9 @@ nav a {
 #site-footer p {
 	font-family: 'Dosis', sans-serif;
 }
+#site-footer a {
+	cursor: pointer;
+}
 #site-footer a,
 .photo a {
 	text-align: right;

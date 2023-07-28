@@ -8,7 +8,7 @@ function Footer() {
 						©Copyright {new Date().getFullYear()} by nobody. All rights
 						reversed.
 					</p>
-					<a href='#site-header'>
+					<a onClick={() => window.scrollTo(0, 0)}>
 						<span>
 							To the top <span aria-hidden='true'>↑</span>
 						</span>
