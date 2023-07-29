@@ -7,7 +7,6 @@ function SearchPhotos() {
 
 	const pathname = `/search/photos?page=1&query=${search}`;
 	const { data: { results } = {} } = useSWR(pathname, fetcherUnsplash);
-	console.log(results);
 	const onSubmit = () => {
 		setSearch(search);
 	};
@@ -27,7 +26,6 @@ function SearchPhotos() {
 						}}
 					/>
 				</label>
-				<button type='sumbit'>Reset</button>
 			</form>
 
 			<div className={'collections'}>
