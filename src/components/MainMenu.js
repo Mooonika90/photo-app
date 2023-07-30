@@ -20,7 +20,7 @@ function MainMenu() {
 					<ul>
 						<li>
 							<Link to='/' onClick={handleLinkClick}>
-								{' '}
+					
 								Start
 							</Link>
 						</li>
