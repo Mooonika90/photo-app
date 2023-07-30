@@ -257,21 +257,17 @@ nav a {
 .collections > * {
 	position: relative;
 	background-color: var(--carmel);
-
 	font-weight: bold;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-
 	min-height: 12.5rem;
-
 	width: min(100%, 21rem);
 
 	margin: var(--margin-size);
 	border-radius: var(--border-radius);
 	border: var(--card-border);
 	box-shadow: var(--card-boxshadow);
-
 	overflow: hidden;
 }
 h3 {
@@ -374,6 +370,7 @@ img {
 	margin-block: 1rem;
 	background-color: var(--carmel);
 	padding: 1rem 2rem;
+	border-radius: var(--border-radius);
 }
 .searchCollection h2 {
 	margin-bottom: 0;
@@ -381,7 +378,6 @@ img {
 
 .searchCollection form input {
 	font-family: 'Dosis', sans-serif;
-	margin-right: 1.4rem;
 }
 .searchCollection .error {
 	font-family: 'Dosis', sans-serif;

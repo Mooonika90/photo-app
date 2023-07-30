@@ -7,7 +7,8 @@ function SearchPhotos() {
 
 	const pathname = `/search/photos?page=1&query=${search}`;
 	const { data: { results } = {} } = useSWR(pathname, fetcherUnsplash);
-	const onSubmit = () => {
+	const onSubmit = (e) => {
+		e.preventDefault();
 		setSearch(search);
 	};
 
